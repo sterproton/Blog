@@ -1,3 +1,9 @@
+---
+title: 关于HTTP协议中的轮询与keep-alive
+date: 2019-03-23 16:56:11
+tags: HTTP
+---
+
 # 关于HTTP协议中的轮询与keep-alive
 
 **Connection ** 首部（header）决定当前事务(transaction)完成后是否会关闭网络连接，如果该值是“keep-alive”，网络连接就是持久的，不会关闭，使得对同一个服务器的请求可以继续在该连接上完成。

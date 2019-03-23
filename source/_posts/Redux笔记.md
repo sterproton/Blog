@@ -1,3 +1,9 @@
+---
+title: Redux笔记
+date: 2019-03-23 16:56:11
+tags: Redux
+---
+
 ## Action
 
 定义：**Action** 是把数据从应用（这里之所以不叫 view 是因为这些数据有可能是服务器响应，用户输入或其它非 view 的数据 ）传到 store 的有效载荷。它是 store 数据的**唯一**来源。一般来说你会通过 [`store.dispatch()`](http://cn.redux.js.org/docs/api/Store.html#dispatch) 将 action 传到 store。
